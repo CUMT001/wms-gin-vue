@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/CUMT001/wms-gin-vue/router"
+)
 func main() {
-	fmt.Println("gin-vue")
+	// 创建默认引擎
+	router.Run()
 }
